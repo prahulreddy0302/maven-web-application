@@ -1,6 +1,6 @@
 node 
 {
-def mavenHome=tool name: "maven 3.6.3"
+def mavenHome = tool name: "maven 3.6.3"
 stage("Checkout git")
 {
 git branch: 'development', url: 'https://github.com/prahulreddy0302/maven-web-application.git'
