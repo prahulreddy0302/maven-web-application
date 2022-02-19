@@ -4,7 +4,7 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.143.225.95:9980/rahul/</sonar.host.url>
+		<sonar.host.url>http://3.140.189.169:9980/rahul/</sonar.host.url>
 		<sonar.login>ed7f1eae16654f0cfc4099e9fff5d2a5ac532bf9</sonar.login>
                 <!--
 		<sonar.login>admin</sonar.login>
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.132.213.208:9980/rahul/repository/flipkart-releases/</url>
+	      <url>http://3.144.201.96:9980/rahul/repository/flipkart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.132.213.208:9980/rahul/repository/flipkart-snapshot/</url>
+	      <url>http://3.144.201.96:9980/rahul/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
