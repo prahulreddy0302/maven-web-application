@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application-dev</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 	
-	<name>maven-web-application-dev</name>
+	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Programming Language</description>
 
@@ -113,7 +113,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-application-dev</finalName>
+		<finalName>maven-web-application</finalName>
 		
 		<plugins>
 			<plugin>
@@ -133,7 +133,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application-dev</contextPath>
+						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -146,7 +146,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application-dev</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
